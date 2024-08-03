@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sandbox</title>
+    <link rel="icon" type="image/x-icon" href="/img/st logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&family=Libre+Franklin:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <nav class="container py-4 my-3">
+        <div class="d-flex justify-content-between">
+            <div>
+                <img src="https://sandbox.elemisthemes.com/assets/img/logo-dark.png" alt="logo" class="w-100">
+            </div>
+            <div class="d-none d-lg-block text-center">
+                <ul class="list-unstyled list-inline m-0">
+                    <li class="list-inline-item ms-4"><a href="#"
+                            class="text-decoration-none hover__color--active">Home</a></li>
+                    <li class="list-inline-item ms-4"><a href="#" class="text-decoration-none hover__color">About Us</a>
+                    </li>
+                    <li class="list-inline-item ms-4"><a href="#" class="text-decoration-none hover__color">Projects</a>
+                    </li>
+                    <li class="list-inline-item ms-4"><a href="#" class="text-decoration-none hover__color">Blog</a>
+                    </li>
+                    <li class="list-inline-item ms-4"><a href="#" class="text-decoration-none hover__color">Contact
+                            Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex">
+                <ul class="list-unstyled d-flex m-0">
+                    <li class="ms-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="20" height="20" x="0" y="0" viewBox="0 0 100 100"
+                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                            <g>
+                                <path
+                                    d="M40.4 55.2h-9.9c-1.6 0-2.1-.6-2.1-2.1V41c0-1.6.6-2.1 2.1-2.1h9.9v-8.8c0-4 .7-7.8 2.7-11.3 2.1-3.6 5.1-6 8.9-7.4 2.5-.9 5-1.3 7.7-1.3h9.8c1.4 0 2 .6 2 2v11.4c0 1.4-.6 2-2 2-2.7 0-5.4 0-8.1.1-2.7 0-4.1 1.3-4.1 4.1-.1 3 0 5.9 0 9h11.6c1.6 0 2.2.6 2.2 2.2V53c0 1.6-.5 2.1-2.2 2.1H57.3v32.6c0 1.7-.5 2.3-2.3 2.3H42.5c-1.5 0-2.1-.6-2.1-2.1V55.2z"
+                                    fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                    </li>
+                    <li class="ms-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="16" height="16" x="0" y="0" viewBox="0 0 512 512"
+                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                            <g>
+                                <path
+                                    d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                    fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                    </li>
+                    <li class="ms-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="16" height="16" x="0" y="0" viewBox="0 0 682.667 682.667"
+                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                            <g>
+                                <defs>
+                                    <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                                        <path d="M0 512h512V0H0Z" fill="#000000" opacity="1" data-original="#000000">
+                                        </path>
+                                    </clipPath>
+                                </defs>
+                                <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+                                    <path
+                                        d="M0 0c0-132.548-108.451-241-241-241S-482-132.548-482 0s108.451 241 241 241S0 132.548 0 0Z"
+                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                        transform="translate(497 256)" fill="none" stroke="#000000" stroke-width="30"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="">
+                                    </path>
+                                    <path d="M0 0v482"
+                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                        transform="translate(256 15)" fill="none" stroke="#000000" stroke-width="30"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="">
+                                    </path>
+                                    <path
+                                        d="M0 0c0-132.548-53.726-241-120-241S-240-132.548-240 0s53.726 241 120 241S0 132.548 0 0Z"
+                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                        transform="translate(376 256)" fill="none" stroke="#000000" stroke-width="30"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="">
+                                    </path>
+                                    <path d="M0 0h-482"
+                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                        transform="translate(497 256)" fill="none" stroke="#000000" stroke-width="30"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="">
+                                    </path>
+                                    <path d="M0 0h-396.92"
+                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                        transform="translate(454.46 391)" fill="none" stroke="#000000" stroke-width="30"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="">
+                                    </path>
+                                    <path d="M0 0h-396.92"
+                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                        transform="translate(454.46 121)" fill="none" stroke="#000000" stroke-width="30"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </li>
+                    <li class="ms-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="16" height="16" x="0" y="0" viewBox="0 0 409.61 409.61"
+                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                            <g>
+                                <path
+                                    d="M307.205 0h-204.8C46.09 0 .005 46.085.005 102.4v204.81c0 56.3 46.085 102.4 102.4 102.4h204.8c56.315 0 102.4-46.1 102.4-102.4V102.4c0-56.315-46.085-102.4-102.4-102.4zm68.265 307.21c0 37.632-30.612 68.265-68.265 68.265h-204.8c-37.637 0-68.265-30.633-68.265-68.265V102.4c0-37.642 30.628-68.265 68.265-68.265h204.8c37.653 0 68.265 30.623 68.265 68.265v204.81z"
+                                    fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                <circle cx="315.755" cy="93.865" r="25.6" fill="#000000" opacity="1"
+                                    data-original="#000000" class=""></circle>
+                                <path
+                                    d="M204.805 102.4c-56.566 0-102.4 45.839-102.4 102.4 0 56.54 45.834 102.41 102.4 102.41 56.55 0 102.4-45.87 102.4-102.41 0-56.561-45.85-102.4-102.4-102.4zm0 170.675c-37.699 0-68.265-30.566-68.265-68.275s30.566-68.265 68.265-68.265 68.265 30.556 68.265 68.265-30.566 68.275-68.265 68.275z"
+                                    fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                    </li>
+                </ul>
+                <div class="d-lg-none ms-4 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="20" height="20" x="0" y="0" viewBox="0 0 464.205 464.205"
+                        style="enable-background:new 0 0 512 512" xml:space="preserve" class="hovered-paths">
+                        <g>
+                            <path
+                                d="M435.192 406.18H29.013C12.989 406.18 0 393.19 0 377.167s12.989-29.013 29.013-29.013h406.18c16.023 0 29.013 12.99 29.013 29.013-.001 16.023-12.99 29.013-29.014 29.013zM435.192 261.115H29.013C12.989 261.115 0 248.126 0 232.103s12.989-29.013 29.013-29.013h406.18c16.023 0 29.013 12.989 29.013 29.013s-12.99 29.012-29.014 29.012zM435.192 116.051H29.013C12.989 116.051 0 103.062 0 87.038s12.989-29.013 29.013-29.013h406.18c16.023 0 29.013 12.989 29.013 29.013s-12.99 29.013-29.014 29.013z"
+                                fill="#000000" opacity="1" data-original="#000000" class="hovered-path"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="container">
+        <div class="row p-5  hero-bgcolor">
+            <div class="col-12 mt-4 col-lg-6 hero__heading pt-5">
+                <h1 class="h1 fw-bold h__color">Networking <span class="text-color">solutions</span> for worldwide
+                    communication</h1>
+                <p class="fs-5 me-5 py-2 lead ">We're a company that focuses on establishing long-term relationships
+                    with
+                    customers.</p>
+                <div class="button-1 mt-5">
+                    <a href="##" class="btn__normlly text-decoration-none text-white">Explore Now</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mt-5">
+                <img src="../img/hero img.png" alt="hero img" class="w-100">
+            </div>
+        </div>
+    </header>
+
+    <section class="Feature mt-gaps">
+       <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <span class="m-0 fs- span__color">Our Features</span>
+                <h2 class="h1 mt-2 h__color">The service we offer is specifically<br>designed to meet your needs.
+                </h2>
+            </div>
+        </div>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 mt-5  gy-lg-5">
+            <div class="col p-4 d-flex">
+                <div class="card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 256.02 213.34"
+                    data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/script.svg"
+                    class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4">
+                    <path class="fill-secondary"
+                        d="M162.66 106.34a8 8 0 01-6.06-13.2l11.54-13.47-11.54-13.45a8 8 0 1112.14-10.42l16 18.67a8 8 0 010 10.42l-16 18.67a8 8 0 01-6.08 2.78zm-69.31 0a8 8 0 01-6.08-2.78l-16-18.67a8 8 0 010-10.42l16-18.67a8 8 0 0112.15 10.42L87.88 79.67l11.54 13.46a8 8 0 01-6.07 13.21zm24.87 15.8a8 8 0 01-6-9.6l16-69.33a8 8 0 1115.6 3.6l-16 69.33a8 8 0 01-9.6 6z">
+                    </path>
+                    <path class="fill-primary"
+                        d="M237.33 0H18.67A18.76 18.76 0 000 18.67v144a18.76 18.76 0 0018.67 18.67h81.68c-1.25 5.35-4.57 14-13.45 22.9a5.33 5.33 0 003.77 9.1h74.67a5.33 5.33 0 003.78-9.1c-8.86-8.86-12.27-17.54-13.6-22.9h81.82A18.77 18.77 0 00256 162.67v-144A18.79 18.79 0 00237.33 0zm-2.66 138.67H21.33V21.34h213.33v117.33z">
+                    </path>
+                </svg>
+                </div>
+                <div class="card__info">
+                    <h5 class="h4">Software & Integration</h5>
+                    <p class="mb-0 lh-base fs-6">Duis mollis gravida commodo id luctus erat porttitor ligula, eget
+                        lacinia odio sem aget elit nullam quis risus eget.</p>
+                </div>
+                </div>
+            
+            <div class="col p-4 d-flex ">
+                <div class="card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 256.02 213.34"
+                        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/script.svg"
+                        class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4">
+                        <path class="fill-secondary"
+                            d="M162.66 106.34a8 8 0 01-6.06-13.2l11.54-13.47-11.54-13.45a8 8 0 1112.14-10.42l16 18.67a8 8 0 010 10.42l-16 18.67a8 8 0 01-6.08 2.78zm-69.31 0a8 8 0 01-6.08-2.78l-16-18.67a8 8 0 010-10.42l16-18.67a8 8 0 0112.15 10.42L87.88 79.67l11.54 13.46a8 8 0 01-6.07 13.21zm24.87 15.8a8 8 0 01-6-9.6l16-69.33a8 8 0 1115.6 3.6l-16 69.33a8 8 0 01-9.6 6z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M237.33 0H18.67A18.76 18.76 0 000 18.67v144a18.76 18.76 0 0018.67 18.67h81.68c-1.25 5.35-4.57 14-13.45 22.9a5.33 5.33 0 003.77 9.1h74.67a5.33 5.33 0 003.78-9.1c-8.86-8.86-12.27-17.54-13.6-22.9h81.82A18.77 18.77 0 00256 162.67v-144A18.79 18.79 0 00237.33 0zm-2.66 138.67H21.33V21.34h213.33v117.33z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="card__info">
+                    <h5 class="h4">Network Security</h5>
+                    <p class="mb-0 lh-base fs-6">Duis mollis gravida commodo id luctus erat porttitor ligula, eget
+                        lacinia odio sem aget elit nullam quis risus eget.</p>
+                </div>
+            </div>
+            <div class="col p-4 d-flex ">
+                <div class="card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 256.02 213.34"
+                        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/script.svg"
+                        class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4">
+                        <path class="fill-secondary"
+                            d="M162.66 106.34a8 8 0 01-6.06-13.2l11.54-13.47-11.54-13.45a8 8 0 1112.14-10.42l16 18.67a8 8 0 010 10.42l-16 18.67a8 8 0 01-6.08 2.78zm-69.31 0a8 8 0 01-6.08-2.78l-16-18.67a8 8 0 010-10.42l16-18.67a8 8 0 0112.15 10.42L87.88 79.67l11.54 13.46a8 8 0 01-6.07 13.21zm24.87 15.8a8 8 0 01-6-9.6l16-69.33a8 8 0 1115.6 3.6l-16 69.33a8 8 0 01-9.6 6z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M237.33 0H18.67A18.76 18.76 0 000 18.67v144a18.76 18.76 0 0018.67 18.67h81.68c-1.25 5.35-4.57 14-13.45 22.9a5.33 5.33 0 003.77 9.1h74.67a5.33 5.33 0 003.78-9.1c-8.86-8.86-12.27-17.54-13.6-22.9h81.82A18.77 18.77 0 00256 162.67v-144A18.79 18.79 0 00237.33 0zm-2.66 138.67H21.33V21.34h213.33v117.33z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="card__info">
+                    <h5 class="h4">Cloud Services</h5>
+                    <p class="mb-0 lh-base fs-6">Duis mollis gravida commodo id luctus erat porttitor ligula, eget
+                        lacinia odio sem aget elit nullam quis risus eget.</p>
+                </div>
+            </div>
+            <div class="col p-4 d-flex">
+                <div class="card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 256.02 213.34"
+                        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/script.svg"
+                        class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4">
+                        <path class="fill-secondary"
+                            d="M162.66 106.34a8 8 0 01-6.06-13.2l11.54-13.47-11.54-13.45a8 8 0 1112.14-10.42l16 18.67a8 8 0 010 10.42l-16 18.67a8 8 0 01-6.08 2.78zm-69.31 0a8 8 0 01-6.08-2.78l-16-18.67a8 8 0 010-10.42l16-18.67a8 8 0 0112.15 10.42L87.88 79.67l11.54 13.46a8 8 0 01-6.07 13.21zm24.87 15.8a8 8 0 01-6-9.6l16-69.33a8 8 0 1115.6 3.6l-16 69.33a8 8 0 01-9.6 6z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M237.33 0H18.67A18.76 18.76 0 000 18.67v144a18.76 18.76 0 0018.67 18.67h81.68c-1.25 5.35-4.57 14-13.45 22.9a5.33 5.33 0 003.77 9.1h74.67a5.33 5.33 0 003.78-9.1c-8.86-8.86-12.27-17.54-13.6-22.9h81.82A18.77 18.77 0 00256 162.67v-144A18.79 18.79 0 00237.33 0zm-2.66 138.67H21.33V21.34h213.33v117.33z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="card__info">
+                    <h5 class="h4">Wireless Networking</h5>
+                    <p class="mb-0 lh-base fs-6">Duis mollis gravida commodo id luctus erat porttitor ligula, eget
+                        lacinia odio sem aget elit nullam quis risus eget.</p>
+                </div>
+            </div>
+            <div class="col p-4 d-flex ">
+                <div class="card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 256.02 213.34"
+                        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/script.svg"
+                        class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4">
+                        <path class="fill-secondary"
+                            d="M162.66 106.34a8 8 0 01-6.06-13.2l11.54-13.47-11.54-13.45a8 8 0 1112.14-10.42l16 18.67a8 8 0 010 10.42l-16 18.67a8 8 0 01-6.08 2.78zm-69.31 0a8 8 0 01-6.08-2.78l-16-18.67a8 8 0 010-10.42l16-18.67a8 8 0 0112.15 10.42L87.88 79.67l11.54 13.46a8 8 0 01-6.07 13.21zm24.87 15.8a8 8 0 01-6-9.6l16-69.33a8 8 0 1115.6 3.6l-16 69.33a8 8 0 01-9.6 6z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M237.33 0H18.67A18.76 18.76 0 000 18.67v144a18.76 18.76 0 0018.67 18.67h81.68c-1.25 5.35-4.57 14-13.45 22.9a5.33 5.33 0 003.77 9.1h74.67a5.33 5.33 0 003.78-9.1c-8.86-8.86-12.27-17.54-13.6-22.9h81.82A18.77 18.77 0 00256 162.67v-144A18.79 18.79 0 00237.33 0zm-2.66 138.67H21.33V21.34h213.33v117.33z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="card__info">
+                    <h5 class="h4">IT Solutions</h5>
+                    <p class="mb-0 lh-base fs-6">Duis mollis gravida commodo id luctus erat porttitor ligula, eget
+                        lacinia odio sem aget elit nullam quis risus eget.</p>
+                </div>
+            </div>
+            <div class="col p-4 d-flex ">
+                <div class="card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 256.02 213.34"
+                        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/script.svg"
+                        class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-4">
+                        <path class="fill-secondary"
+                            d="M162.66 106.34a8 8 0 01-6.06-13.2l11.54-13.47-11.54-13.45a8 8 0 1112.14-10.42l16 18.67a8 8 0 010 10.42l-16 18.67a8 8 0 01-6.08 2.78zm-69.31 0a8 8 0 01-6.08-2.78l-16-18.67a8 8 0 010-10.42l16-18.67a8 8 0 0112.15 10.42L87.88 79.67l11.54 13.46a8 8 0 01-6.07 13.21zm24.87 15.8a8 8 0 01-6-9.6l16-69.33a8 8 0 1115.6 3.6l-16 69.33a8 8 0 01-9.6 6z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M237.33 0H18.67A18.76 18.76 0 000 18.67v144a18.76 18.76 0 0018.67 18.67h81.68c-1.25 5.35-4.57 14-13.45 22.9a5.33 5.33 0 003.77 9.1h74.67a5.33 5.33 0 003.78-9.1c-8.86-8.86-12.27-17.54-13.6-22.9h81.82A18.77 18.77 0 00256 162.67v-144A18.79 18.79 0 00237.33 0zm-2.66 138.67H21.33V21.34h213.33v117.33z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="card__info">
+                    <h5 class="h4">Server Configuration</h5>
+                    <p class="mb-0 lh-base fs-6">Duis mollis gravida commodo id luctus erat porttitor ligula, eget
+                        lacinia odio sem aget elit nullam quis risus eget.</p>
+                </div>
+        </div>
+       </div>
+
+    </section>
+    <section class="solutions mt-gaps">
+        <div class="container">
+            <div class="row m-auto p-4 border ">
+                <div class="col-12 col-lg-5">
+                    <img src="../img/being solution.png" alt="solution" class="w-100">
+                </div>
+                <div class="col-12 col-lg-6 offset-lg-1 mt-5 pt-sm-5 mt-md-0 pt-md-0">
+                    <h2 class="fs-5  span__color">Have Perfect Control</h2>
+                    <h1 class="h1 text-start h__color my-4">We bring solutions to make life easier for our customers.
+                    </h1>
+                    <p class="lh-base fs-">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo
+                        cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue rutrum.</p>
+                    <div class="row row-cols-1 row-cols-sm-2  mt-5">
+                        <div class="col">
+                            <ul class="list-unstyled">
+                                <li class="d-flex">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0"
+                                            y="0" viewBox="0 0 408.576 408.576"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                                    fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p class="ps-3">Aenean quam ornare. Curabitur blandit.</p>
+                                </li>
+                                <li class="d-flex">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0"
+                                            y="0" viewBox="0 0 408.576 408.576"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                                    fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p class="ps-3">Aenean quam ornare. Curabitur blandit.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="list-unstyled">
+                                <li class="d-flex">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0"
+                                            y="0" viewBox="0 0 408.576 408.576"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                                    fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p class="ps-3">Aenean quam ornare. Curabitur blandit.</p>
+                                </li>
+                                <li class="d-flex">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0"
+                                            y="0" viewBox="0 0 408.576 408.576"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                                    fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p class="ps-3">Aenean quam ornare. Curabitur blandit.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="different mt-gaps">
+        <div class="container">
+            <div class="row row-cols-lg-2 row ">
+            <div class="col">
+                <h2 class="fs-5  span__color">What Makes Us Different?</h2>
+                <h1 class="h1 text-start h__color my-4">We make spending stress free so you have the perfect
+                    control.</h1>
+                <p class="lh-base">Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus
+                    auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus,
+                    tellus ac cursus. Integer posuere erat a ante venenatis dapibus posuere velit.</p>
+                <ul class="list-unstyled mt-4">
+                    <li>
+                    <li class="d-flex">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0"
+                                viewBox="0 0 408.576 408.576" style="enable-background:new 0 0 512 512"
+                                xml:space="preserve" class="">
+                                <g>
+                                    <path
+                                        d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                        fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                </g>
+                            </svg>
+                        </span>
+                        <p class="ps-3">Aenean eu leo quam. Pellentesque ornare.</p>
+                    </li>
+                    <li class="d-flex">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0"
+                                viewBox="0 0 408.576 408.576" style="enable-background:new 0 0 512 512"
+                                xml:space="preserve" class="">
+                                <g>
+                                    <path
+                                        d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                        fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                </g>
+                            </svg>
+                        </span>
+                        <p class="ps-3">Nullam quis risus eget urna mollis ornare.</p>
+                    </li>
+                    <li class="d-flex">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0"
+                                viewBox="0 0 408.576 408.576" style="enable-background:new 0 0 512 512"
+                                xml:space="preserve" class="">
+                                <g>
+                                    <path
+                                        d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                        fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                </g>
+                            </svg>
+                        </span>
+                        <p class="ps-3">Donec id elit non mi porta gravida at eget.</p>
+                    </li>
+
+                </ul>
+          
+            </div>
+            <div class= "col-12 col-lg-5 offset-lg-1 position-relative">
+                <img src="../img/make different" alt="make different" class="w-100 border__radius">
+                <div class="card__nomber  d-none d-lg-block d-flex bg-white px-3 py-2 position-absolute align-items-center border__radius shadow"
+                    style="top: 15%; left: -7%">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 256 234.66"
+                            data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/cloud-group.svg"
+                            class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia me-3">
+                            <circle class="fill-secondary" cx="128" cy="149.33" r="21.33"></circle>
+                            <path class="fill-secondary"
+                                d="M162.67 234.66H93.34a8 8 0 01-8-8v-16a29.36 29.36 0 0129.33-29.33h26.67a29.35 29.35 0 0129.33 29.33v16a8 8 0 01-8 8zm32-64h-14.19a55.46 55.46 0 0116.85 40v2.67H216a8.06 8.06 0 008-8V200a29.32 29.32 0 00-29.33-29.34zm-133.34 0A29.31 29.31 0 0032 200v5.35a8.06 8.06 0 008 8h18.67v-2.67a55.46 55.46 0 0116.85-40z">
+                            </path>
+                            <circle class="fill-secondary" cx="74.67" cy="138.66" r="21.33"></circle>
+                            <circle class="fill-secondary" cx="181.33" cy="138.66" r="21.33"></circle>
+                            <path class="fill-primary"
+                                d="M27.2 162.94a52.21 52.21 0 018.8-6.56A42.48 42.48 0 01107.73 112a41 41 0 0140.54 0A42.48 42.48 0 01220 156.38a55.09 55.09 0 015.83 4 64.4 64.4 0 00-26.65-118.49A81.31 81.31 0 00128 0C90.19 0 57.39 26.3 49.1 62.18 21.54 65.07 0 88.22 0 116.26c0 19.93 11 37.21 27.2 46.68z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="card__info">
+                        <h3 class="h3 mb-0">25000+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="achive mt-gaps">
+        <div class="container">
+            <div class="row justify-content-between p-5 border__radius"
+                style="height: auto; background: linear-gradient(to bottom , #f3c59936, #bca982b8);">
+                <div class="col-md-12 col-lg-3 col-12">
+                    <h1 class="h1 h__color">We are proud of our works</h1>
+                    <p class="fs-5 lead ">We bring solutions to make life easier for our customers.</p>
+                </div>
+                <div class="col-sm-3 col-12 col-4 mt-4 m-md-0 text-center">
+                    <svg class="" xmlns="http://www.w3.org/2000/svg" width="50" viewBox="0 0 256.1 256.01"
+                        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/target.svg"
+                        class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3">
+                        <path class="fill-secondary"
+                            d="M178.66 79.37L166.93 91.1a76.68 76.68 0 014.91 11.52 85.77 85.77 0 0114.93-1.28h1.39a93.65 93.65 0 00-9.5-21.97zM0 128a96.1 96.1 0 00109.65 95 82.93 82.93 0 01-5.65-15.42 67 67 0 01-8 .43A80 80 0 0196 48a79 79 0 0137 9.17l11.73-11.73A94.73 94.73 0 0096 32a96.14 96.14 0 00-96 96z">
+                        </path>
+                        <path class="fill-secondary"
+                            d="M37.33 128A58.78 58.78 0 0096 186.68a47.26 47.26 0 005.44-.32A82.71 82.71 0 01103 170a37.32 37.32 0 01-7 .64 42.67 42.67 0 010-85.34 32.88 32.88 0 018 .84l12.91-12.91a57 57 0 00-20.91-4A58.81 58.81 0 0037.33 128z">
+                        </path>
+                        <path class="fill-secondary"
+                            d="M96 106.68A21.33 21.33 0 10117.33 128 21.39 21.39 0 0096 106.68zm0 26.66a5.33 5.33 0 115.33-5.33 5.28 5.28 0 01-5.33 5.33z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M96.1 136a8 8 0 01-5.67-13.65L159.76 53a8 8 0 0111.31 11.31l-69.33 69.33A8 8 0 0196.1 136z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M194.77 64H168.1a8 8 0 01-8-8V29.34a8.08 8.08 0 012.33-5.67l21.33-21.33A8 8 0 01197.42 8v18.68h18.68a8 8 0 015.66 13.66l-21.33 21.33a8 8 0 01-5.66 2.33zm-8 53.34a69.34 69.34 0 1069.33 69.34 69.4 69.4 0 00-69.33-69.34zm29.87 56.11L182 210.78a8 8 0 01-11.09.64l-18.67-16a8 8 0 1110.41-12.15l12.84 11 29.44-31.69a8 8 0 0111.74 10.88z">
+                        </path>
+                    </svg>
+                    <h3 class="h1">1000+</h3>
+                    <p class="mb-0">Completed Projects</p>
+                </div>
+                <div class="col-sm-3 col-12 col-4 mt-4 m-md-0 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" viewBox="0 0 256.1 256.01"
+                        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/target.svg"
+                        class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3">
+                        <path class="fill-secondary"
+                            d="M178.66 79.37L166.93 91.1a76.68 76.68 0 014.91 11.52 85.77 85.77 0 0114.93-1.28h1.39a93.65 93.65 0 00-9.5-21.97zM0 128a96.1 96.1 0 00109.65 95 82.93 82.93 0 01-5.65-15.42 67 67 0 01-8 .43A80 80 0 0196 48a79 79 0 0137 9.17l11.73-11.73A94.73 94.73 0 0096 32a96.14 96.14 0 00-96 96z">
+                        </path>
+                        <path class="fill-secondary"
+                            d="M37.33 128A58.78 58.78 0 0096 186.68a47.26 47.26 0 005.44-.32A82.71 82.71 0 01103 170a37.32 37.32 0 01-7 .64 42.67 42.67 0 010-85.34 32.88 32.88 0 018 .84l12.91-12.91a57 57 0 00-20.91-4A58.81 58.81 0 0037.33 128z">
+                        </path>
+                        <path class="fill-secondary"
+                            d="M96 106.68A21.33 21.33 0 10117.33 128 21.39 21.39 0 0096 106.68zm0 26.66a5.33 5.33 0 115.33-5.33 5.28 5.28 0 01-5.33 5.33z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M96.1 136a8 8 0 01-5.67-13.65L159.76 53a8 8 0 0111.31 11.31l-69.33 69.33A8 8 0 0196.1 136z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M194.77 64H168.1a8 8 0 01-8-8V29.34a8.08 8.08 0 012.33-5.67l21.33-21.33A8 8 0 01197.42 8v18.68h18.68a8 8 0 015.66 13.66l-21.33 21.33a8 8 0 01-5.66 2.33zm-8 53.34a69.34 69.34 0 1069.33 69.34 69.4 69.4 0 00-69.33-69.34zm29.87 56.11L182 210.78a8 8 0 01-11.09.64l-18.67-16a8 8 0 1110.41-12.15l12.84 11 29.44-31.69a8 8 0 0111.74 10.88z">
+                        </path>
+                    </svg>
+                    <h3 class="h1">1000+</h3>
+                    <p class="mb-0">Completed Projects</p>
+                </div>
+                <div class="col-sm-3 col-12 col-4 mt-4 m-md-0 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" viewBox="0 0 256.1 256.01"
+                        data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/target.svg"
+                        class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3">
+                        <path class="fill-secondary"
+                            d="M178.66 79.37L166.93 91.1a76.68 76.68 0 014.91 11.52 85.77 85.77 0 0114.93-1.28h1.39a93.65 93.65 0 00-9.5-21.97zM0 128a96.1 96.1 0 00109.65 95 82.93 82.93 0 01-5.65-15.42 67 67 0 01-8 .43A80 80 0 0196 48a79 79 0 0137 9.17l11.73-11.73A94.73 94.73 0 0096 32a96.14 96.14 0 00-96 96z">
+                        </path>
+                        <path class="fill-secondary"
+                            d="M37.33 128A58.78 58.78 0 0096 186.68a47.26 47.26 0 005.44-.32A82.71 82.71 0 01103 170a37.32 37.32 0 01-7 .64 42.67 42.67 0 010-85.34 32.88 32.88 0 018 .84l12.91-12.91a57 57 0 00-20.91-4A58.81 58.81 0 0037.33 128z">
+                        </path>
+                        <path class="fill-secondary"
+                            d="M96 106.68A21.33 21.33 0 10117.33 128 21.39 21.39 0 0096 106.68zm0 26.66a5.33 5.33 0 115.33-5.33 5.28 5.28 0 01-5.33 5.33z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M96.1 136a8 8 0 01-5.67-13.65L159.76 53a8 8 0 0111.31 11.31l-69.33 69.33A8 8 0 0196.1 136z">
+                        </path>
+                        <path class="fill-primary"
+                            d="M194.77 64H168.1a8 8 0 01-8-8V29.34a8.08 8.08 0 012.33-5.67l21.33-21.33A8 8 0 01197.42 8v18.68h18.68a8 8 0 015.66 13.66l-21.33 21.33a8 8 0 01-5.66 2.33zm-8 53.34a69.34 69.34 0 1069.33 69.34 69.4 69.4 0 00-69.33-69.34zm29.87 56.11L182 210.78a8 8 0 01-11.09.64l-18.67-16a8 8 0 1110.41-12.15l12.84 11 29.44-31.69a8 8 0 0111.74 10.88z">
+                        </path>
+                    </svg>
+                    <h3 class="h1">1000+</h3>
+                    <p class="mb-0">Completed Projects</p>
+                </div>
+            </div>
+            <div class="card__achive">
+                <div class="row row-cols-md-2 row-cols-lg-4 row-cols-1">
+                    <div class="col mb-4 mb-md-0 ">
+                        <div class="box p-4 bg-white shadow border__radius">
+                            <p class="lh-base mb-4">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+                                auctor.
+                                Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                            <h5 class="h5">Coriss Ambady</h5>
+                            <p>Financial Analyst</p>
+                        </div>
+                    </div>
+                    <div class="col mb-4 mb-md-0">
+                        <div class="box p-4 bg-white shadow border__radius">
+                            <p class="lh-base mb-4">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+                                auctor.
+                                Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                            <h5 class="h5">Coriss Ambady</h5>
+                            <p>Financial Analyst</p>
+                        </div>
+                    </div>
+                    <div class="col mb-4 mb-md-0 mt-md-3 mt-lg-0">
+                        <div class="box p-4 bg-white shadow border__radius">
+                            <p class="lh-base mb-4">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+                                auctor.
+                                Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                            <h5 class="h5">Coriss Ambady</h5>
+                            <p>Financial Analyst</p>
+                        </div>
+                    </div>
+                    <div class="col mb-4 mb-md-0 mt-md-3 mt-lg-0">
+                        <div class="box p-4 bg-white shadow border__radius">
+                            <p class="lh-base mb-4">“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+                                auctor.
+                                Vestibulum id ligula porta. Cras mattis consectetur.”</p>
+                            <h5 class="h5">Coriss Ambady</h5>
+                            <p>Financial Analyst</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="studio mt-gaps">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center ">
+                    <div class="col-10 col-lg-7 m-auto">
+                        <h5 class="m-0 h5 span__color">Case Studies</h5>
+                        <h2 class="h2 mt-2 h__color">Check out some of our awesome projects with creative ideas and
+                            great
+                            design.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-5">
+                <div class="col mb-5 p-md-4 mb-md-0">
+                    <div class="coding__img border__radius overflow-hidden">
+                        <img src="../img/coding.jpg" alt="coding" class="w-100">
+                    </div>
+                    <h2 class="fs-4 mt-4"><a href="##" class="text-decoration-none h__color">Ligula tristique quis
+                            risus</a></h2>
+                    <div class="row row-cols-1 row-cols-md-2 mt-3">
+                        <div class="col ms-3 ms-md-0 p-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0"
+                                    viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512"
+                                    xml:space="preserve" class="">
+                                    <g>
+                                        <defs>
+                                            <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                                                <path d="M0 512h512V0H0Z" fill="#000000" opacity="1"
+                                                    data-original="#000000"></path>
+                                            </clipPath>
+                                        </defs>
+                                        <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+                                            <path
+                                                d="M0 0h39.333m78.895 0h39.333M-118 0h39.333M0 118h39.333m78.895 0h39.333M-118 118h39.333m-137.666 98.667h472.227M-137.439-98H177c43.572 0 78.894 35.322 78.894 78.895v274.877c0 43.572-35.322 78.895-78.894 78.895h-314.439c-43.572 0-78.894-35.323-78.894-78.895V-19.105c0-43.573 35.322-78.895 78.894-78.895zm275.333 373.667V374m-236.227-98.333V374"
+                                                style="stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                transform="translate(236.333 118)" fill="none" stroke="#000000"
+                                                stroke-width="40" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
+                                                data-original="#000000" class=""></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span class="ms-3">14 Apr 2022</span>
+                        </div>
+                        <div class="col ms-3 ms-md-0 p-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0"
+                                    viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                    class="">
+                                    <g>
+                                        <path
+                                            d="M21.987 6.577H8.976a.9.9 0 0 0 0 1.8h13.012a.9.9 0 1 0-.001-1.8zM22.887 12.551a.9.9 0 0 0-.9-.9H8.976a.9.9 0 0 0 0 1.8h13.012a.9.9 0 0 0 .899-.9zM8.976 16.726a.9.9 0 0 0 0 1.8h6.554a.9.9 0 0 0 0-1.8z"
+                                            fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                        <path
+                                            d="M11.313 29.1H5.744a1.394 1.394 0 0 1-1.392-1.392V4.292c0-.768.625-1.392 1.392-1.392H25.22c.767 0 1.392.625 1.392 1.392v8.545a.9.9 0 0 0 1.8 0V4.292A3.195 3.195 0 0 0 25.221 1.1H5.744a3.196 3.196 0 0 0-3.192 3.192v23.416A3.196 3.196 0 0 0 5.744 30.9h5.569a.9.9 0 0 0 0-1.8z"
+                                            fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                        <path
+                                            d="M28.467 16.914a3.353 3.353 0 0 0-4.738 0l-8.275 8.275a1.77 1.77 0 0 0-.496.959l-.452 2.683a1.774 1.774 0 0 0 2.043 2.044l2.681-.453c.366-.061.699-.232.961-.495l8.275-8.275a3.354 3.354 0 0 0 .001-4.738zm-9.534 11.733-2.652.483.445-2.669 5.955-5.955 2.194 2.194zm8.261-8.268-1.047 1.048-2.194-2.194 1.048-1.048c.302-.302.7-.453 1.097-.453a1.55 1.55 0 0 1 1.096 2.647z"
+                                            fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span class="ms-3">Coding</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 p-md-4 mb-md-0">
+                    <div class="coding__img border__radius overflow-hidden">
+                        <img src="../img/workshop.jpg" alt="coding" class="w-100">
+                    </div>
+                    <h2 class="fs-4 mt-4"><a href="##" class="text-decoration-none h__color">Ligula tristique quis
+                            risus</a></h2>
+                    <div class="row row-cols-1 row-cols-md-2 mt-3">
+                        <div class="col ms-3 ms-md-0 p-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0"
+                                    viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512"
+                                    xml:space="preserve" class="">
+                                    <g>
+                                        <defs>
+                                            <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                                                <path d="M0 512h512V0H0Z" fill="#000000" opacity="1"
+                                                    data-original="#000000"></path>
+                                            </clipPath>
+                                        </defs>
+                                        <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+                                            <path
+                                                d="M0 0h39.333m78.895 0h39.333M-118 0h39.333M0 118h39.333m78.895 0h39.333M-118 118h39.333m-137.666 98.667h472.227M-137.439-98H177c43.572 0 78.894 35.322 78.894 78.895v274.877c0 43.572-35.322 78.895-78.894 78.895h-314.439c-43.572 0-78.894-35.323-78.894-78.895V-19.105c0-43.573 35.322-78.895 78.894-78.895zm275.333 373.667V374m-236.227-98.333V374"
+                                                style="stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                transform="translate(236.333 118)" fill="none" stroke="#000000"
+                                                stroke-width="40" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
+                                                data-original="#000000" class=""></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span class="ms-3">14 Apr 2022</span>
+                        </div>
+                        <div class="col ms-3 ms-md-0 p-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0"
+                                    viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                    class="">
+                                    <g>
+                                        <path
+                                            d="M21.987 6.577H8.976a.9.9 0 0 0 0 1.8h13.012a.9.9 0 1 0-.001-1.8zM22.887 12.551a.9.9 0 0 0-.9-.9H8.976a.9.9 0 0 0 0 1.8h13.012a.9.9 0 0 0 .899-.9zM8.976 16.726a.9.9 0 0 0 0 1.8h6.554a.9.9 0 0 0 0-1.8z"
+                                            fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                        <path
+                                            d="M11.313 29.1H5.744a1.394 1.394 0 0 1-1.392-1.392V4.292c0-.768.625-1.392 1.392-1.392H25.22c.767 0 1.392.625 1.392 1.392v8.545a.9.9 0 0 0 1.8 0V4.292A3.195 3.195 0 0 0 25.221 1.1H5.744a3.196 3.196 0 0 0-3.192 3.192v23.416A3.196 3.196 0 0 0 5.744 30.9h5.569a.9.9 0 0 0 0-1.8z"
+                                            fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                        <path
+                                            d="M28.467 16.914a3.353 3.353 0 0 0-4.738 0l-8.275 8.275a1.77 1.77 0 0 0-.496.959l-.452 2.683a1.774 1.774 0 0 0 2.043 2.044l2.681-.453c.366-.061.699-.232.961-.495l8.275-8.275a3.354 3.354 0 0 0 .001-4.738zm-9.534 11.733-2.652.483.445-2.669 5.955-5.955 2.194 2.194zm8.261-8.268-1.047 1.048-2.194-2.194 1.048-1.048c.302-.302.7-.453 1.097-.453a1.55 1.55 0 0 1 1.096 2.647z"
+                                            fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span class="ms-2">Coding</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5 p-md-4 mb-md-0">
+                    <div class="coding__img border__radius overflow-hidden">
+                        <img src="../img/meeting.jpg" alt="coding" class="w-100">
+                    </div>
+                    <h2 class="fs-4 mt-4"><a href="##" class="text-decoration-none h__color">Ligula tristique quis
+                            risus</a></h2>
+                    <div class="row row-cols-1 row-cols-md-2 mt-3">
+                        <div class="col ms-3 ms-md-0 p-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0"
+                                    viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512"
+                                    xml:space="preserve" class="">
+                                    <g>
+                                        <defs>
+                                            <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                                                <path d="M0 512h512V0H0Z" fill="#000000" opacity="1"
+                                                    data-original="#000000"></path>
+                                            </clipPath>
+                                        </defs>
+                                        <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+                                            <path
+                                                d="M0 0h39.333m78.895 0h39.333M-118 0h39.333M0 118h39.333m78.895 0h39.333M-118 118h39.333m-137.666 98.667h472.227M-137.439-98H177c43.572 0 78.894 35.322 78.894 78.895v274.877c0 43.572-35.322 78.895-78.894 78.895h-314.439c-43.572 0-78.894-35.323-78.894-78.895V-19.105c0-43.573 35.322-78.895 78.894-78.895zm275.333 373.667V374m-236.227-98.333V374"
+                                                style="stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                transform="translate(236.333 118)" fill="none" stroke="#000000"
+                                                stroke-width="40" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
+                                                data-original="#000000" class=""></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span class="ms-2">14 Apr 2022</span>
+                        </div>
+                        <div class="col ms-3 ms-md-0 p-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0"
+                                    viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                    class="">
+                                    <g>
+                                        <path
+                                            d="M21.987 6.577H8.976a.9.9 0 0 0 0 1.8h13.012a.9.9 0 1 0-.001-1.8zM22.887 12.551a.9.9 0 0 0-.9-.9H8.976a.9.9 0 0 0 0 1.8h13.012a.9.9 0 0 0 .899-.9zM8.976 16.726a.9.9 0 0 0 0 1.8h6.554a.9.9 0 0 0 0-1.8z"
+                                            fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                        <path
+                                            d="M11.313 29.1H5.744a1.394 1.394 0 0 1-1.392-1.392V4.292c0-.768.625-1.392 1.392-1.392H25.22c.767 0 1.392.625 1.392 1.392v8.545a.9.9 0 0 0 1.8 0V4.292A3.195 3.195 0 0 0 25.221 1.1H5.744a3.196 3.196 0 0 0-3.192 3.192v23.416A3.196 3.196 0 0 0 5.744 30.9h5.569a.9.9 0 0 0 0-1.8z"
+                                            fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                        <path
+                                            d="M28.467 16.914a3.353 3.353 0 0 0-4.738 0l-8.275 8.275a1.77 1.77 0 0 0-.496.959l-.452 2.683a1.774 1.774 0 0 0 2.043 2.044l2.681-.453c.366-.061.699-.232.961-.495l8.275-8.275a3.354 3.354 0 0 0 .001-4.738zm-9.534 11.733-2.652.483.445-2.669 5.955-5.955 2.194 2.194zm8.261-8.268-1.047 1.048-2.194-2.194 1.048-1.048c.302-.302.7-.453 1.097-.453a1.55 1.55 0 0 1 1.096 2.647z"
+                                            fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span class="ms-3">Coding</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="company-believes mt-gaps">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="row">
+                        <div class="col-12 mb-4 col-md-6 mb-md-5">
+                            <img src="../img/c-1.jpg" alt="" class="w-100 border__radius">
+                        </div>
+                        <div class="col-12 mb-4 col-md-6 mt-md-4">
+                            <img src="../img/c-2.jpg" alt="" class="w-100 border__radius">
+                        </div>
+                        <div class="col-md-11 mb-5 col-12 m-auto">
+                            <img src="../img/c-3.jpg" alt="" class="w-100 border__radius">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 mt-md-5">
+                    <h2 class="fs-5  span__color">Who Are We?</h2>
+                    <h1 class="h1 text-start h__color my-4">Company that believes in the power of creative strategy.
+                    </h1>
+                    <p class="lh-base">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                        mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna,
+                        vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed.</p>
+                    <div class="row row-cols-1 row-cols-sm-2  mt-5">
+                        <div class="col">
+                            <ul class="list-unstyled">
+                                <li class="d-flex">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0"
+                                            y="0" viewBox="0 0 408.576 408.576"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                                    fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p class="ps-3">Aenean quam ornare. Curabitur blandit.</p>
+                                </li>
+                                <li class="d-flex">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0"
+                                            y="0" viewBox="0 0 408.576 408.576"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                                    fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p class="ps-3">Aenean quam ornare. Curabitur blandit.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="list-unstyled">
+                                <li class="d-flex">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0"
+                                            y="0" viewBox="0 0 408.576 408.576"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                                    fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p class="ps-3">Aenean quam ornare. Curabitur blandit.</p>
+                                </li>
+                                <li class="d-flex">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0"
+                                            y="0" viewBox="0 0 408.576 408.576"
+                                            style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M204.288 0C91.648 0 0 91.648 0 204.288s91.648 204.288 204.288 204.288 204.288-91.648 204.288-204.288S316.928 0 204.288 0zm114.176 150.528-130.56 129.536c-7.68 7.68-19.968 8.192-28.16.512L90.624 217.6c-8.192-7.68-8.704-20.48-1.536-28.672 7.68-8.192 20.48-8.704 28.672-1.024l54.784 50.176L289.28 121.344c8.192-8.192 20.992-8.192 29.184 0s8.192 20.992 0 29.184z"
+                                                    fill="#0bbc5c" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p class="ps-3">Aenean quam ornare. Curabitur blandit.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-lg-3 row-cols-1 mt-4">
+                <div class="col">
+                    <div class="box mb-4 mb-lg-0 d-flex  p-3 m-3">
+                        <div class="btn__circle ">
+                            <span class="number d-flex justify-content-center align-items-center">1</span>
+                        </div>
+                        <div class=" ms-4">
+                            <h3 class="h4 h__color">Our Vision</h3>
+                            <p class="lh-base">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta
+                                gravida at eget. Fusce dapibus tellus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box mb-4 mb-lg-0 d-flex p-3 m-3">
+                        <div class="btn__circle">
+                            <span class="number d-flex justify-content-center align-items-center">2</span>
+                        </div>
+                        <div class=" ms-4">
+                            <h3 class="h4 h__color">Our Mission</h3>
+                            <p class="lh-base">Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue
+                                laoreet. Sed posuere consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box mb-4 mb-lg-0 d-flex  p-3 m-3">
+                        <div class="btn__circle">
+                            <span class="number d-flex justify-content-center align-items-center">3</span>
+                        </div>
+                        <div class=" ms-4">
+                            <h3 class="h4 h__color">Our Values</h3>
+                            <p class="lh-base">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent
+                                commodo
+                                cursus magna scelerisque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+                </div>
+            </section>
+            <section class="contact mt-gaps hero-bgcolor">
+<div class="container">
+   <div class="row m-auto p-5 border__radius">
+    <div class="col-12 col-lg-5 overflow-hidden">
+        <img src="../img/contact.png" alt="contact" class="w-100">
+    </div>
+    <div class="col-12 col-lg-6 offset-lg-1 mt-5 mt-lg-0">
+        <h2 class="fs-5  span__color">Contact Us</h2>
+        <h1 class="fs-1 text-start h__color my-4 mb-5">Got any questions? Don't hesitate to get in touch.
+        </h1>
+        <div class="d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 255.84"
+                data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/pin.svg"
+                class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4"
+                style="width: 1.5rem; height: 1.5rem;">
+                <path class="fill-secondary"
+                    d="M10.67 255.84a10.68 10.68 0 01-7.54-18.23l86.08-86a10.67 10.67 0 1115.08 15.1l-86.08 86a10.61 10.61 0 01-7.54 3.13z">
+                </path>
+                <path class="fill-primary"
+                    d="M250.54 80.72L175.12 5.29a19.12 19.12 0 00-26.4 0L138.3 15.71a27.18 27.18 0 00-6.61 27.93A11.25 11.25 0 01129 55.21L98.38 85.79a13.3 13.3 0 01-9.38 3.9H76.46a29.11 29.11 0 00-20.73 8.59l-5.06 5.06a18.66 18.66 0 000 26.4l75.42 75.42a18.64 18.64 0 0026.4 0l5.06-5.07a29.12 29.12 0 008.59-20.73v-12.5a13.43 13.43 0 013.91-9.42l30.57-30.58a11.24 11.24 0 0111.57-2.74 27.14 27.14 0 0027.92-6.6l10.42-10.42a18.65 18.65 0 000-26.38z">
+                </path>
+            </svg>
+            <address class="mb-1">
+                <h5>Address</h5>
+                <p>Moonshine St. 14/05 Light City, india</p>
+            </address>
+        </div>
+        <div class="d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.01 256"
+                data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/rotary.svg"
+                class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4"
+                style="width: 1.5rem; height: 1.5rem;">
+                <path class="fill-secondary"
+                    d="M128 106.67a128.15 128.15 0 00-128 128A21.36 21.36 0 0021.34 256h213.32A21.36 21.36 0 00256 234.67c0-70.57-57.42-128-128-128zM128 224a42.67 42.67 0 1142.67-42.67A42.71 42.71 0 01128 224z">
+                </path>
+                <path class="fill-primary"
+                    d="M33.45 117.34a22.89 22.89 0 01-12.56-3.69 50.7 50.7 0 01-6.61-5.12A43.84 43.84 0 01.74 68.3C5.45 43.31 33.27 27.06 53.8 17A169.32 169.32 0 01128 0c34.77 0 69.86 10.62 96.26 29.14 11.95 8.4 26.22 20.11 30.4 36.41a44 44 0 01-12.93 43 49.9 49.9 0 01-6.49 5 23.84 23.84 0 01-26.87-.76L171.1 86.18c-8.32-5.94-11.64-16.42-8.08-25.52.19-.53.41-1 .64-1.56a113 113 0 00-71.33 0l.67 1.54c3.57 9.1.22 19.6-8.08 25.52l-37.3 26.61a24.15 24.15 0 01-14.14 4.57z">
+                </path>
+            </svg>
+            <address class="mb-1">
+                <h5>Phone</h5>
+                <p>00 (123) 456 78 90</p>
+            </address>
+        </div>
+        <div class="d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 202.66"
+                data-inject-url="https://sandbox.elemisthemes.com/assets/img/icons/solid/emails.svg"
+                class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4"
+                style="width: 1.5rem; height: 1.5rem;">
+                <path class="fill-primary"
+                    d="M192 0H21.33A21.36 21.36 0 000 21.33v96a21.36 21.36 0 0021.33 21.33H192a21.36 21.36 0 0021.33-21.33v-96A21.36 21.36 0 00192 0zm0 48l-73.6 37.12A25.12 25.12 0 01106.67 88a24.39 24.39 0 01-11.84-3L21.34 48V30.08l80.85 40.75a9.64 9.64 0 008.85.11l81-40.86z">
+                </path>
+                <path class="fill-secondary"
+                    d="M234.67 64v53.33A42.72 42.72 0 01192 160H42.67v21.33A21.36 21.36 0 0064 202.66h170.67A21.36 21.36 0 00256 181.33v-96A21.36 21.36 0 00234.67 64z">
+                </path>
+            </svg>
+            <address class="mb-1">
+                <h5>E-mail</h5>
+                <p>sandbox@email.com</p>
+            </address>
+        </div>
+    </div>
+   </div>
+</div>
+            </section>
+            <section class="community mt-gaps">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 p-5 bg__second border__radius text-center ">
+                            <div class="col-10 col-lg-7 m-auto">
+                                <h5 class="m-0 h5 span__color">Join Our Community</h5>
+                                <h2 class="h2 mt-2 h__color">We are trusted by over 5000+ clients.Join them now and grow your
+                                    business.
+                                </h2>
+                                <div class="button-1 mt-5">
+                                    <a href="##" class="btn__normlly text-decoration-none text-white">Explore Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer mt-5 p-5">
+                <div class="container">
+                    <div class="row row-cols-lg-4 row-cols-md-3">
+                        <div class="col-lg-3 col-4">
+                            <div class="footer__info my-3">
+                                <div class="w-50">
+                                    <img src="https://sandbox.elemisthemes.com/assets/img/logo-dark.png" alt="logo"
+                                        class="w-100">
+                                </div>
+                                <p class="mb-0 mt-4">© 2023 Sandbox.</p>
+                                <p>All rights reserved.</p>
+                                <ul class="list-unstyled d-flex m-0">
+                                    <li class="ms-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0"
+                                            viewBox="0 0 100 100" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                            class="">
+                                            <g>
+                                                <path
+                                                    d="M40.4 55.2h-9.9c-1.6 0-2.1-.6-2.1-2.1V41c0-1.6.6-2.1 2.1-2.1h9.9v-8.8c0-4 .7-7.8 2.7-11.3 2.1-3.6 5.1-6 8.9-7.4 2.5-.9 5-1.3 7.7-1.3h9.8c1.4 0 2 .6 2 2v11.4c0 1.4-.6 2-2 2-2.7 0-5.4 0-8.1.1-2.7 0-4.1 1.3-4.1 4.1-.1 3 0 5.9 0 9h11.6c1.6 0 2.2.6 2.2 2.2V53c0 1.6-.5 2.1-2.2 2.1H57.3v32.6c0 1.7-.5 2.3-2.3 2.3H42.5c-1.5 0-2.1-.6-2.1-2.1V55.2z"
+                                                    fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </li>
+                                    <li class="ms-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" x="0" y="0"
+                                            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                            class="">
+                                            <g>
+                                                <path
+                                                    d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                                    fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </li>
+                                    <li class="ms-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" x="0" y="0"
+                                            viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512"
+                                            xml:space="preserve" class="">
+                                            <g>
+                                                <defs>
+                                                    <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                                                        <path d="M0 512h512V0H0Z" fill="#000000" opacity="1"
+                                                            data-original="#000000">
+                                                        </path>
+                                                    </clipPath>
+                                                </defs>
+                                                <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+                                                    <path
+                                                        d="M0 0c0-132.548-108.451-241-241-241S-482-132.548-482 0s108.451 241 241 241S0 132.548 0 0Z"
+                                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                        transform="translate(497 256)" fill="none" stroke="#000000"
+                                                        stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
+                                                        data-original="#000000" class="">
+                                                    </path>
+                                                    <path d="M0 0v482"
+                                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                        transform="translate(256 15)" fill="none" stroke="#000000"
+                                                        stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
+                                                        data-original="#000000" class="">
+                                                    </path>
+                                                    <path
+                                                        d="M0 0c0-132.548-53.726-241-120-241S-240-132.548-240 0s53.726 241 120 241S0 132.548 0 0Z"
+                                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                        transform="translate(376 256)" fill="none" stroke="#000000"
+                                                        stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
+                                                        data-original="#000000" class="">
+                                                    </path>
+                                                    <path d="M0 0h-482"
+                                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                        transform="translate(497 256)" fill="none" stroke="#000000"
+                                                        stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
+                                                        data-original="#000000" class="">
+                                                    </path>
+                                                    <path d="M0 0h-396.92"
+                                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                        transform="translate(454.46 391)" fill="none" stroke="#000000"
+                                                        stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
+                                                        data-original="#000000" class="">
+                                                    </path>
+                                                    <path d="M0 0h-396.92"
+                                                        style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                                                        transform="translate(454.46 121)" fill="none" stroke="#000000"
+                                                        stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter"
+                                                        stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
+                                                        data-original="#000000" class="">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </li>
+                                    <li class="ms-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" x="0" y="0"
+                                            viewBox="0 0 409.61 409.61" style="enable-background:new 0 0 512 512"
+                                            xml:space="preserve" class="">
+                                            <g>
+                                                <path
+                                                    d="M307.205 0h-204.8C46.09 0 .005 46.085.005 102.4v204.81c0 56.3 46.085 102.4 102.4 102.4h204.8c56.315 0 102.4-46.1 102.4-102.4V102.4c0-56.315-46.085-102.4-102.4-102.4zm68.265 307.21c0 37.632-30.612 68.265-68.265 68.265h-204.8c-37.637 0-68.265-30.633-68.265-68.265V102.4c0-37.642 30.628-68.265 68.265-68.265h204.8c37.653 0 68.265 30.623 68.265 68.265v204.81z"
+                                                    fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                                <circle cx="315.755" cy="93.865" r="25.6" fill="#000000" opacity="1"
+                                                    data-original="#000000" class=""></circle>
+                                                <path
+                                                    d="M204.805 102.4c-56.566 0-102.4 45.839-102.4 102.4 0 56.54 45.834 102.41 102.4 102.41 56.55 0 102.4-45.87 102.4-102.41 0-56.561-45.85-102.4-102.4-102.4zm0 170.675c-37.699 0-68.265-30.566-68.265-68.275s30.566-68.265 68.265-68.265 68.265 30.556 68.265 68.265-30.566 68.275-68.265 68.275z"
+                                                    fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                            </g>
+                                        </svg>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer__info  my-3">
+                                <h5 class="h5 h__color">Get in Touch</h5>
+                                <address class="mt-4">
+                                    Moonshine St. 14/05 Light City,<br>London, United Kingdom
+                                </address>
+                                <a href="##" class="d-block text-decoration-none hover__color">info@email.com</a>
+                                <a href="##" class="text-decoration-none hover__color"> 00 (123) 456 78 90</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer__info  my-3">
+                                <h5 class="h5 h__color">Learn More</h5>
+                                <ul class="list-unstyled mt-4">
+                                    <li class="mb-1">
+                                        <a href="##" class="text-decoration-none hover__color">About Us</a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="##" class="text-decoration-none hover__color">Our Story</a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="##" class="text-decoration-none hover__color">Projects</a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="##" class="text-decoration-none hover__color">Terms of Use</a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="##" class="text-decoration-none hover__color">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 col-sm-7">
+                            <div class="footer__info  my-3">
+                                <h5 class="h5 h__color">Our Newsletter</h5>
+                                <p class="mt-4">Subscribe to our newsletter to get our news & deals delivered to you.</p>
+                                <div class="footer__inputs mt-4">
+                                    <input type="text" placeholder="Enter email" class="p-2">
+                                    <input type="submit" value="Join" class="p-2 text-white"
+                                        style="background-color: #0bbc5c;border: 1px solid #0bbc5c; outline: none;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+</body>
+</html>
